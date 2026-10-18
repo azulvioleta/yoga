@@ -1,0 +1,497 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Georgia, 'Times New Roman', serif;
+    background: #efeac3;
+    color: #333;
+}
+
+
+/* ================= ENCABEZADO ================= */
+
+.encabezado{
+    background: white;
+    border-bottom: 1px solid #eee;
+}
+
+.barra-superior{
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1100px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+.redes{
+    display: flex;
+    gap: 15px;
+}
+
+.redes a{
+    color: #333;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo img{
+    height: 50px;
+    width: auto;
+}
+
+.logo span{
+    font-size: 22px;
+    font-weight: bold;
+    color: #285f50;
+}
+
+.iconos{
+    display: flex;
+    gap: 20px;
+    font-size: 18px;
+}
+
+.navbar{
+    border-top: 1px solid #eee;
+}
+
+.navbar-nav{
+    gap: 30px;
+}
+
+.nav-link{
+    color: #444 !important;
+    font-size: 12px;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+
+/* ================= HERO ================= */
+
+.hero{
+    min-height: 500px;
+    display: flex;
+    background: #f5f3ef;
+}
+
+.hero-texto{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 70px;
+}
+
+.hero-texto h1{
+    font-size: 48px;
+    line-height: 1.1;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.hero-texto p{
+    font-family: Arial, sans-serif;
+    color: #666;
+    line-height: 1.7;
+    max-width: 450px;
+    margin-bottom: 25px;
+}
+
+.boton{
+    background: #397d6b;
+    color: white;
+    text-decoration: none;
+    width: 150px;
+    padding: 12px 20px;
+    text-align: center;
+    border-radius: 25px;
+    font-family: Arial, sans-serif;
+}
+
+.hero-imagen{
+    width: 55%;
+}
+
+.hero-imagen img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+/* ================= SECCIONES ================= */
+
+.seccion{
+    padding: 80px 0;
+}
+
+.seccion h2{
+    text-align: center;
+    font-size: 32px;
+    color: #6d4937;
+}
+
+.subtitulo{
+    text-align: center;
+    color: #777;
+    font-family: Arial, sans-serif;
+    margin-top: 10px;
+}
+
+
+/* ================= ESPECIALIDADES ================= */
+
+.tarjeta-especialidad{
+    text-align: center;
+    padding: 35px 25px;
+    border: 1px solid #eee;
+    height: 100%;
+    background: white;
+}
+
+.tarjeta-especialidad i{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70px;
+    height: 70px;
+    margin: auto auto 20px;
+    border-radius: 50%;
+    background: #397d6b;
+    color: white;
+    font-size: 28px;
+}
+
+.tarjeta-especialidad h3{
+    font-size: 21px;
+    color: #444;
+}
+
+.tarjeta-especialidad p{
+    font-family: Arial, sans-serif;
+    color: #777;
+    line-height: 1.6;
+}
+
+
+/* ================= DESTACADOS ================= */
+
+.destacados{
+    padding: 80px 0;
+    background: #faf8f4;
+}
+
+.titulo-seccion{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.titulo-seccion h2{
+    color: #6d4937;
+    font-size: 32px;
+}
+
+.titulo-seccion a{
+    border: 1px solid #9a806d;
+    color: #6d4937;
+    padding: 8px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+}
+
+.tarjeta{
+    background: white;
+    border: 1px solid #eee;
+}
+
+.tarjeta img{
+    width: 100%;
+    height: 230px;
+    object-fit: cover;
+}
+
+.contenido{
+    padding: 20px;
+}
+
+.contenido span,
+.contenido-platillo span{
+    display: inline-block;
+    background: #397d6b;
+    color: white;
+    padding: 5px 12px;
+    border-radius: 20px;
+    font-family: Arial, sans-serif;
+    font-size: 10px;
+}
+
+.contenido h3{
+    margin-top: 12px;
+    font-size: 20px;
+}
+
+.contenido p{
+    font-family: Arial, sans-serif;
+    color: #777;
+}
+
+
+/* ================= TESTIMONIO ================= */
+
+.testimonio{
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    padding: 50px;
+    background: #f5f1e9;
+}
+
+.testimonio-imagen img{
+    width: 250px;
+    height: 220px;
+    object-fit: contain;
+}
+
+.testimonio-texto{
+    max-width: 500px;
+}
+
+.testimonio-texto i{
+    font-size: 50px;
+    color: #397d6b;
+}
+
+.testimonio-texto p{
+    font-size: 20px;
+    font-style: italic;
+    line-height: 1.7;
+    color: #555;
+}
+
+.testimonio-texto h4{
+    font-size: 13px;
+    letter-spacing: 2px;
+    color: #397d6b;
+}
+
+
+/* ================= PLATILLOS ================= */
+
+.platillos{
+    background: white;
+}
+
+.tarjeta-platillo{
+    background: white;
+    border: 1px solid #eee;
+    height: 100%;
+    transition: 0.3s;
+}
+
+.tarjeta-platillo:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+}
+
+.tarjeta-platillo img{
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+}
+
+.contenido-platillo{
+    padding: 20px;
+}
+
+.contenido-platillo h3{
+    font-size: 20px;
+    margin-top: 12px;
+}
+
+.contenido-platillo p{
+    color: #777;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.precio{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.precio strong{
+    color: #333;
+}
+
+.precio a{
+    background: #397d6b;
+    color: white;
+    padding: 7px 15px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+}
+
+
+/* ================= FOOTER ================= */
+
+footer{
+    background: #292929;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+footer h3{
+    font-size: 25px;
+}
+
+footer p{
+    color: #ccc;
+    font-family: Arial, sans-serif;
+}
+
+.redes-footer{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin: 25px 0;
+}
+
+.redes-footer a{
+    color: white;
+    font-size: 20px;
+}
+
+.copyright{
+    font-size: 12px;
+}
+
+
+/* ================= RESPONSIVE ================= */
+
+@media(max-width: 768px){
+
+    .barra-superior{
+        height: auto;
+        padding: 20px;
+    }
+
+    .redes{
+        display: none;
+    }
+
+    .hero{
+        flex-direction: column;
+    }
+
+    .hero-texto{
+        width: 100%;
+        padding: 60px 30px;
+    }
+
+    .hero-texto h1{
+        font-size: 38px;
+    }
+
+    .hero-imagen{
+        width: 100%;
+        height: 350px;
+    }
+
+    .testimonio{
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+    }
+
+    .titulo-seccion{
+        flex-direction: column;
+        gap: 15px;
+    }
+
+}
+/* Contenedor principal para alinearlos uno al lado del otro */
+.contenedor-circulos {
+  display: flex;
+  gap: 20px; /* Espacio entre cada círculo */
+  justify-content: center; /* Centrar en la pantalla */
+  align-items: center;
+}
+
+/* Estilo para convertir cada bloque en un círculo */
+.circulo {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%; /* Hace que sea completamente redondo */
+  background-color: #f9f6f0; /* Color de fondo claro (puedes cambiarlo) */
+  border: 1px solid #e0dcd5; /* Borde suave opcional */
+  
+  /* Centrado del contenido dentro del círculo */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+/* Estilo para los números */
+.circulo .numero {
+  color: orange; /* O un código hexadecimal como #ff6b35 */
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+/* Estilo para el texto */
+.circulo .texto {
+  color: black;
+  font-size: 0.9rem;
+}
+.tarjeta-especialidad {
+    text-align: center;
+}
+
+.imagen-yoga {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.boton {
+    display: inline-block;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.tarjeta-especialidad h3 {
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.tarjeta-especialidad p {
+    margin-top: 10px;
+}
